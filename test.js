@@ -49,9 +49,7 @@ for (let i = 0; i <= 4; i++) {
 
 // Dobbelen
 function dobbelen() {
-  mijnStenen.forEach(function (item) {
-    item.dobbel();
-  });
+  mijnStenen.forEach(item => item.dobbel());
 }
 
 // verplaats de steen van 1e naar 2e rij of andersom
